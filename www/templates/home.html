@@ -1,0 +1,32 @@
+<div class="bar bar-header bar-energized">
+    <h1 class="title ion-social-snapchat"> My_Snapchat</h1>
+</div>
+<div class="bar bar-subheader  ">
+    <h2 class="title ion-ios-person"> Inscription</h2>
+</div>
+
+<ion-pane>
+        <div>
+            <div class="ctn">
+                <div class="list"> <!-- INSCRIPTION -->
+                    <label class="item item-input">
+                        <span class="input-label">email</span>
+                        <input type="email" data-ng-model="email">
+                    </label>
+                    <label class="item item-input">
+                        <span class="input-label">Password</span>
+                        <input type="password" data-ng-model="password">
+                    </label>
+                    <p class="my_erreur">{{error}}</p>
+                </div>
+            </div>
+            <p class="my_link" ui-sref="connexion">Déjà membre ?</p>
+            <div class="bar bar-footer">
+                <button class="my_footer button-block button button-balanced" data-ng-click="signUp()">S'inscrire</button>
+            </div>
+
+        </div>
+
+
+
+</ion-pane>

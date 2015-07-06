@@ -1,0 +1,7 @@
+<ion-pane>
+	<ion-content zooming=true direction="y" data-ng-init='sendTo()'>
+		<ul data-ng-repeat="list in contact">
+		    <li class="item ion-social-snapchat" data-ng-click="send({{list.id}})"> {{list.username}}</li>
+		</ul>
+	</ion-content>
+</ion-pane>

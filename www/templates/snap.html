@@ -1,0 +1,17 @@
+<ion-pane>
+   <img data-ng-click="sendTo()" data-ng-show="imageSRC" data-ng-src="{{imageSRC}}" />
+   <div class="tabs tabs-icon-only">
+        <a class="tab-item" ui-sref="view">
+            <i class="icon ion-social-snapchat" ></i>
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-android-camera" data-ng-click="pic()"></i>
+        </a>
+        <a class="tab-item" ui-sref="contact">
+            <i class="icon ion-person-stalker" ></i>
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-android-walk" data-ng-click="logout()"></i>
+        </a>
+    </div>
+</ion-pane>
